@@ -23,6 +23,13 @@
 }
 
 .bg-image-two {
+    background-image: url('/Users/robin/Documents/GitHub/portfolio/src/assets/projects/kanji-memorizer.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-image-three {
     background-image: url('/Users/robin/Documents/GitHub/portfolio/src/assets/projects/under-construction.png');
     background-position: center center;
     background-size: cover;
