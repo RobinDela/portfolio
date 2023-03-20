@@ -1,0 +1,72 @@
+{
+    "en": {
+        "name": "Hi there! I'am:",
+        "resume": "Resume",
+        "navbar": {
+            "home": "Home",
+            "about": "About",
+            "skill": "Skills",
+            "work": "Work",
+            "contact": "Contact"
+        },
+        "home": {
+            "introduction": "Welcome!",
+            "name": "Robin Delannoy",
+            "description": "I am a motivated and skilled front-end developer looking for an entry-level position in Japan. With a passion for creating intuitive and engaging user experiences, I am eager to contribute my skills to a dynamic team and gain hands-on experience in a professional setting",
+            "viewWork": "View Work"
+        },
+        "skills": {
+            "skillText": "These are the technoloies I've worked with:"
+        },
+        "work": {
+            "workText": "Check out some of my recent work:"
+        },
+        "about": {
+            "title": "About me",
+            "text": "I'm passionate about blahblah"
+        },
+        "contact": {
+            "title": "Contact",
+            "text": "Submit the form below or shoot me an email",
+            "namePlaceHolder": "Name",
+            "emailPlaceHolder": "Email",
+            "messagePlaceHolder": "Message",
+            "buttonText": "Let's collaborate"
+        }
+    },
+    "jp": {
+        "name": "こんにちは",
+        "resume": "履歴書",
+        "navbar": {
+            "home": "ホーム",
+            "about": "自己紹介",
+            "skill": "スキル",
+            "work": "作品",
+            "contact": "お問い合わせ"
+        },
+        "home": {
+            "introduction": "よこそ!",
+            "name": "ロビン・デランノイ",
+            "description": "私は日本のエントリーレベルのフロントエンド開発者としてのポジションを探しているモチベーションの高いスキルを持つ人物です。直感的で魅力的なユーザーエクスペリエンスを作り出すことに情熱を持ち、ダイナミックなチームにスキルを提供し、プロフェッショナルな環境での実践的な経験を積むことを熱望しています。",
+            "viewWork": "作品を見る"
+        },
+        "skills": {
+            "skillText": "これらは私が使用した技術です:"
+        },
+        "work": {
+            "workText": "最近の作品をご覧ください:"
+        },
+        "about": {
+            "title": "自己紹介",
+            "text": "私はblahblahに情熱を持っています。"
+        },
+        "contact": {
+            "title": "お問い合わせ",
+            "text": "以下のフォームから送信するか、私にメールを送信してください",
+            "namePlaceHolder": "お名前",
+            "emailPlaceHolder": "メールアドレス",
+            "messagePlaceHolder": "メッセージ",
+            "buttonText": "協力しましょう"
+        }
+    }
+}
