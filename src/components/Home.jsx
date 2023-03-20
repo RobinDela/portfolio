@@ -10,8 +10,8 @@ const Home = () => {
         <div name='home' className='w-full h-screen bg-[#0a192f]'>
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <p className='text-base text-gray-300 dark:text-gray'>{languageData[language].name}</p>
-                <h1 className='my-8 text-4xl sm:text-7xl text-gray-900 font-bold dark:text-white'>Robin Delannoy</h1>
-                <h2 className='text-4xl sm:-7xl text-gray-900 dark:text-white'>{languageData[language].home.introduction}</h2>
+                <h1 className='my-8 text-4xl sm:text-7xl text-gray-300 font-bold dark:text-white'>Robin Delannoy</h1>
+                <h2 className='text-4xl sm:-7xl text-gray-300 dark:text-white'>{languageData[language].home.introduction}</h2>
                 <p className='text-xl text-gray-300 dark:text-gray'> {languageData[language].home.description}</p>
                 <div>
                     <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-gray-600'>{languageData[language].home.viewWork}
