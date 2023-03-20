@@ -1,6 +1,7 @@
 {
     "en": {
         "name": "Hi there! I'am:",
+        "fullName": "Robin Delannoy",
         "resume": "Resume",
         "navbar": {
             "home": "Home",
@@ -36,6 +37,7 @@
     },
     "jp": {
         "name": "こんにちは",
+        "fullName": "Robin Delannoy",
         "resume": "履歴書",
         "navbar": {
             "home": "ホーム",
