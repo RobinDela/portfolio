@@ -1,7 +1,6 @@
 import { useContext } from 'react';
 import { LanguageContext } from '../LanguageContext';
 import languageData from '../data/languageData.json';
-// import underconstruction from '../assets/projects/under-construction.png'
 
 const Work = () => {
     const { language } = useContext(LanguageContext)
@@ -50,7 +49,7 @@ const Work = () => {
                                 Kanji Quizz
                             </span>
                             <div className="pt-8 text-center ">
-                                <a href='https://github.com/RobinDela/Kanji-memorizer/tree/main/client/frontend ' target="_blank">
+                                <a href='https://github.com/RobinDela/Kanji-memorizer ' target="_blank">
                                     <button
                                         className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                         Code
