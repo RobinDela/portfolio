@@ -15,12 +15,8 @@ const About = () => {
                     </div>
                     <div></div>
                 </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+                <div className='max-w-[1000px] w-full grid sm:grid-cols-1 gap-8 px-4'>
                     <div className='sm:text-center text-4xl font-bold'>
-
-                        <p>
-                            {languageData[language].about.title}
-                        </p>
                     </div>
                     <div>
                         <p>{languageData[language].about.text}</p>
