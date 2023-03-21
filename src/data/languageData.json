@@ -47,13 +47,13 @@
             "contact": "お問い合わせ"
         },
         "home": {
-            "introduction": "よこそ!",
+            "introduction": "ようこそ!",
             "name": "ロビン・デランノイ",
             "description": "私は日本のエントリーレベルのフロントエンド開発者としてのポジションを探しているモチベーションの高いスキルを持つ人物です。直感的で魅力的なユーザーエクスペリエンスを作り出すことに情熱を持ち、ダイナミックなチームにスキルを提供し、プロフェッショナルな環境での実践的な経験を積むことを熱望しています。",
             "viewWork": "作品を見る"
         },
         "skills": {
-            "skillText": "これらは私が使用した技術です:"
+            "skillText": "私の持っている技術です:"
         },
         "work": {
             "workText": "最近の作品をご覧ください:"
@@ -68,7 +68,7 @@
             "namePlaceHolder": "お名前",
             "emailPlaceHolder": "メールアドレス",
             "messagePlaceHolder": "メッセージ",
-            "buttonText": "協力しましょう"
+            "buttonText": "送る"
         }
     }
 }
