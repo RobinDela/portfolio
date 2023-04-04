@@ -6,35 +6,12 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll'
 import { LanguageContext } from '../LanguageContext';
 import languageData from '../data/languageData.json';
-import ResumeEng from '../assets/resume-eng-robin.pdf';
-import ResumeJp from '../assets/resume-jp-robin.pdf';
-
+import ResumeEng from '../assets/resume-eng-robin.pdf'
+import ResumeJp from '../assets/resume-jp-robin.pdf'
 
 
 const Navbar = () => {
-    const handleDownloadEng = () => {
-        const blob = new Blob([ResumeEng], { type: 'application/pdf' });
-        const url = URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.href = url;
-        link.download = 'resume-eng-robin.pdf';
-        link.click();
-    }
-    const handleDownloadJp = () => {
-        const blob = new Blob([ResumeJp], { type: 'application/pdf' });
-        const url = URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.href = url;
-        link.download = 'resume-jp-robin.pdf';
-        link.click();
-    }
-    const handleDownload = () => {
-        if (language === 'en') {
-            handleDownloadEng();
-        } else {
-            handleDownloadJp();
-        }
-    }
+
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
@@ -144,9 +121,8 @@ const Navbar = () => {
                     </li>
                     <li className=' w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                         <a
-                            onClick={handleDownload}
                             className='flex justify-between items-center w-full text-gray-300'
-                            href='/' target="_blank"
+                            href={language === "en" ? ResumeEng : ResumeJp} download target="_blank"
                         >
                             {languageData[language].resume} <BsFillPersonLinesFill size={30} />
                         </a>
