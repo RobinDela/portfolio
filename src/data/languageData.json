@@ -60,7 +60,7 @@
         },
         "about": {
             "title": "自己紹介",
-            "text": "近日公開"
+            "text": "数年間、日本のミシュラン星付きレストランで、シェフとして働いていました。その後スイスでシェフをしていましたが、 コロナ禍でレストランが閉鎖したため、webデベロッパーの学校に通い、様々なスキルを覚えました。HTML, CSS, Javascript, React, React native, Node, Cypress, SQL, GraphQL, Git."
         },
         "contact": {
             "title": "お問い合わせ",
